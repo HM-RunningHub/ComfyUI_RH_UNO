@@ -1,6 +1,7 @@
 # UNO (Unity and Novel Output) for ComfyUI
 
 This repository hosts the ComfyUI implementation of UNO (Unity and Novel Output), supporting FLUX models. This implementation includes several new features and optimizations.
+That can run the full version with 24GB VRAM, as well as quickly run the FP8 version.
 
 ## Features
 
@@ -8,8 +9,8 @@ This repository hosts the ComfyUI implementation of UNO (Unity and Novel Output)
   - Support for `flux-dev-fp8` and `flux-schnell-fp8`
   - Note: `flux-schnell-fp8` offers lower consistency but much faster generation (4 steps)
 - **Memory optimization** through block swapping
-  - Run BF16 models on 24GB GPUs (actual usage: 14-20GB)
-  - Support for both `flux-dev` and `flux-schnell` in BF16 mode
+  - Run BF16 models on 24GB GPUs 
+  - Support for both `flux-dev` and `flux-schnell` in BF16 mode on 24GB GPUs 
 - **Progress bar** to display denoising progress in real-time
 - **Local model loading** configured via `config.json`
 
@@ -18,7 +19,22 @@ This repository hosts the ComfyUI implementation of UNO (Unity and Novel Output)
 ### Directory Structure
 
 Models are configured in the root `config.json` file. The default structure expected is:
-
+```
+ComfyUI/models
+    flux/
+        FLUX.1-schnell/
+            text_encoder/
+            tokenizer/
+            text_encoder_2/
+            tokenizer_2/
+    unet/
+        flux1-schnell.sft
+        flux1-dev.sft
+    vae/
+        ae.safetensors
+    UNO/
+        dit_lora.safetensors
+```
 
 ### Text Encoder and CLIP Configuration
 
