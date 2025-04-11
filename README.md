@@ -71,6 +71,9 @@ For T5 and CLIP models, there are two organization options:
 - **DIT-LoRA Models**:
   - Default: `comfyui/models/UNO/`
   - Configure with `"lora_base"` in config.json
+## Example
+![image](https://github.com/user-attachments/assets/ebb4da62-880b-4365-b1b0-921a432f0679)
+
 
 ## Acknowledgments
 
