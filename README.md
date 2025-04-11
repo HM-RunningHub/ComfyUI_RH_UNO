@@ -1,3 +1,5 @@
+# [中文版说明](README_CN.md).
+
 # UNO (Unity and Novel Output) for ComfyUI
 
 This repository hosts the ComfyUI implementation of UNO (Unity and Novel Output), supporting FLUX models. This implementation includes several new features and optimizations.
