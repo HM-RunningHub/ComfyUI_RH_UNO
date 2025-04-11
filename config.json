@@ -1,0 +1,13 @@
+{
+    "model_base": "",
+    "flux-dev": "flux1-dev.sft", 
+    "flux-schnell": "flux1-schnell.sft",
+    "lora_base": "",
+    "lora-dit": "dit_lora.safetensors",
+    "clip-in-one": 0,
+    "clip": "flux/FLUX.1-schnell",
+    "t5-in-one": 0,
+    "t5": "flux/FLUX.1-schnell",
+    "vae_base": "",
+    "vae": "ae.safetensors"
+}
