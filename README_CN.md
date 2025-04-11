@@ -70,6 +70,9 @@ ComfyUI/models
 - **DIT-LoRA 模型**：
   - 默认：`comfyui/models/UNO/`
   - 通过 config.json 中的 `"lora_base"` 配置
+ 
+## 例子
+![image](https://github.com/user-attachments/assets/4d177559-8182-46bc-8ea2-1ef4c20f70ac)
 
 ## 致谢
 
