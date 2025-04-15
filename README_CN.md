@@ -28,10 +28,10 @@ https://www.runninghub.cn/post/1910316871583789058
 ComfyUI/models
   flux/
     FLUX.1-schnell/
-    text_encoder/
-    tokenizer/
-    text_encoder_2/
-    tokenizer_2/
+      text_encoder/
+      tokenizer/
+      text_encoder_2/
+      tokenizer_2/
   unet/
     flux1-schnell.sft
     flux1-dev.sft
