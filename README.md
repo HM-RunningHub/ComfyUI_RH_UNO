@@ -28,7 +28,7 @@ Models are configured in the root `config.json` file. The default structure expe
 ```
 ComfyUI/models
     flux/
-        FLUX.1-schnell/
+        FLUX.1-schnell/   ###download from https://huggingface.co/black-forest-labs/FLUX.1-schnell
             text_encoder/
             tokenizer/
             text_encoder_2/
