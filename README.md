@@ -6,8 +6,9 @@ This repository hosts the ComfyUI implementation of UNO (Unity and Novel Output)
 That can run the full version with 24GB VRAM, as well as quickly run the FP8 version.
 
 ## Online Access
-You can also access RunningHub online to use this plugin and model for free .
-Workflow: https://www.runninghub.ai/post/1910316871583789058
+You can also access RunningHub online to use this plugin and model for free.
+Run&Download this Workflow: 
+https://www.runninghub.ai/post/1910316871583789058
 
 ## Features
 
